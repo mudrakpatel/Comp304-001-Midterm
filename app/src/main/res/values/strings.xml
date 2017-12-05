@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">MudrakPatel_COMP304_001_Hands-On_Test1</string>
+    <string name="bannerTextMainActivity">Welcome to messaging page</string>
+    <string name="greetingTExtSendMessageActivity">How are you?</string>
+    <string name="editTextHintStringSendMessageActivity">Message here</string>
+    <string name="sendStringSendMessageActivity">Send</string>
+    <string-array name="contactsArray">
+        <item name="johnDoe">John Doe</item>
+        <item name="janeDoe">Jane Doe</item>
+        <item name="janeSmith">Jane Smith</item>
+        <item name="robertSimpson">Robert Simpson</item>
+        <item name="saraTurner">Sara Turner</item>
+        <item name="juliaRichards">Julia Richards</item>
+        <item name="marcFields">Marc Fields</item>
+    </string-array>
+</resources>

@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:id="@+id/relativeLayoutSendMessageActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/greetingTextViewSendMessageActivity"
+        android:text="@string/greetingTExtSendMessageActivity"
+        android:textSize="@dimen/textSize25dp"/>
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/contactIconImageViewSendMessageActivity"
+        android:background="@drawable/contacts"
+        android:layout_below="@+id/greetingTextViewSendMessageActivity"/>
+
+    <ImageView
+        android:layout_width="@dimen/imageViewSize54dp"
+        android:layout_height="@dimen/imageViewSize54dp"
+        android:id="@+id/imageViewYellowSendMessageActivity"
+        android:background="@color/yellow"
+        android:layout_toRightOf="@+id/contactIconImageViewSendMessageActivity"
+        android:layout_below="@+id/greetingTextViewSendMessageActivity"/>
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/messageEditTextSendMessageActivity"
+        android:layout_below="@+id/contactIconImageViewSendMessageActivity"
+        android:hint="@string/editTextHintStringSendMessageActivity"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/sendButtonSendMessageActivity"
+        android:text="@string/sendStringSendMessageActivity"
+        android:layout_toRightOf="@+id/messageEditTextSendMessageActivity"
+        android:layout_below="@+id/imageViewYellowSendMessageActivity"/>
+
+</RelativeLayout>
